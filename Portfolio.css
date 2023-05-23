@@ -1,0 +1,118 @@
+* {box-sizing:border-box}
+
+.container {
+  width: 95%; 
+  background-color: #ddd;
+}
+h1{
+  text-decoration: underline;
+}
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;} 
+
+body{
+  background-color:beige;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color:indianred;
+    padding: 20px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.main{
+  display: flex;
+  justify-content:left;
+  text-align: left;
+}
+button{
+  background-color: burlywood;
+  color: #f44336;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color:cadetblue;
+  color: crimson;
+  border-radius: 15px;
+}
+.main2 {
+  transition: transform 0.5s;
+}
+
+.main2:hover {
+  transform:translateX(50px);
+}
+.main2 {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  background-color:bisque;
+  height: 200px;
+  width: 300px;
+  border-radius: 20px;
+  color: indianred;
+}
+.i{
+  /* position: absolute; */
+  border-radius: 50%;
+}
+.main3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1{
+  background-color:antiquewhite;
+  height: 500px;
+  width: 450px;
+  font-family:cursive;
+  font-style: italic;
+  border-radius: 10px;
+}
+.sec1 h1{
+  text-decoration: underline;
+}
+.sec2 h1{
+  text-decoration: underline;
+}
+.sec2{
+  font-family:cursive;
+  font-style: italic;
+  position: absolute;
+  left: 70%;
+  background-color:antiquewhite;
+  height: 300px;
+  width: 350px;
+  border-radius: 10px;
+ }
+.main4{
+  font-family: cursive;
+  font-style: italic;
+}
+.main4 h1{
+  text-decoration: underline;
+}
+.sec3{
+  display: flex;
+  /* padding: 50px; */
+  gap: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
